@@ -1,0 +1,5 @@
+IP: 51.250.108.182;
+name_taski: https://irin-taski.hopto.org/;
+name_kittygram: https://baro-kittygram.hopto.org/;
+login: admin;
+password: 1;
