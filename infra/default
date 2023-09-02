@@ -60,22 +60,12 @@ server {
         return 301 https://$host$request_uri;
     }
 
-
-
-    listen 80;
-    server_name 51.250.108.182 irin-taski.hopto.org;
-    return 404;
-
-
-}
-server {
     if ($host = baro-kittygram.hopto.org) {
         return 301 https://$host$request_uri;
     }
 
-
     listen 80;
-    server_name 51.250.108.182 baro-kittygram.hopto.org;
+    server_name 51.250.108.182 baro-kittygram.hopto.org irin-taski.hopto.org;
     return 404;
 
 
